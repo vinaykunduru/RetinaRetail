@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <meta name="Vinay" content="---" />
-    <title>PCR Projects</title>
+    <title>Retina Retail</title>
     <link rel="shortcut icon" href="./assets/img/favicon.jpg" />
     <link rel="stylesheet" href="./assets/css/plugins.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
@@ -14,7 +14,9 @@
   <body>
     <div class="content-wrapper">
       <header class="wrapper bg-soft-primary">
-        <nav class="navbar navbar-expand-lg classic transparent navbar-light">
+        <nav
+          class="navbar navbar-expand-lg transparent position-absolute navbar-dark"
+        >
           <div class="container flex-lg-row flex-nowrap align-items-center">
             <div class="navbar-brand w-100">
               <a href="./index.html">
@@ -55,66 +57,10 @@
                   <li class="nav-item">
                     <a class="nav-link" href="/about.html">Franchise</a>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a
-                      class="nav-link dropdown-toggle"
-                      href="#"
-                      data-bs-toggle="dropdown"
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" data-bs-toggle="dropdown"
                       >Products</a
                     >
-                    <div class="dropdown-menu dropdown-lg">
-                      <div class="dropdown-lg-content">
-                        <div>
-                          <h6 class="dropdown-header">Products</h6>
-                          <ul class="list-unstyled">
-                            <li>
-                              <a
-                                class="dropdown-item"
-                                href="single-project.html"
-                                >Silpa Botanica</a
-                              >
-                            </li>
-                            <li>
-                              <a class="dropdown-item" href="#">Golden Pride</a>
-                            </li>
-                            <li>
-                              <a class="dropdown-item" href="#">High 9</a>
-                            </li>
-                            <li>
-                              <a class="dropdown-item" href="#">Sapta Varna</a>
-                            </li>
-                          </ul>
-                        </div>
-                        <!-- /.column -->
-                        <div>
-                          <h6 class="dropdown-header">Completed Projects</h6>
-                          <ul class="list-unstyled">
-                            <li>
-                              <a class="dropdown-item" href="#"
-                                >Single Project I</a
-                              >
-                            </li>
-                            <li>
-                              <a class="dropdown-item" href="#"
-                                >Single Project II</a
-                              >
-                            </li>
-                            <li>
-                              <a class="dropdown-item" href="#"
-                                >Single Project III</a
-                              >
-                            </li>
-                            <li>
-                              <a class="dropdown-item" href="#"
-                                >Single Project IV</a
-                              >
-                            </li>
-                          </ul>
-                        </div>
-                        <!-- /.column -->
-                      </div>
-                      <!-- /auto-column -->
-                    </div>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Support & Training</a>
@@ -129,11 +75,11 @@
                 <!-- /.navbar-nav -->
                 <div class="offcanvas-footer d-lg-none">
                   <div>
-                    <a href="mailto:info@pcrprojects.com" class="link-inverse"
-                      >info@pcrprojects.com</a
+                    <a href="mailto:info@retinaretail.com" class="link-inverse"
+                      >info@retinaretail.com</a
                     >
                     <br />
-                    +91 89779 00919 <br />
+                    040-27205580, 040-27205590 <br />
                     <nav class="nav social social-white mt-4">
                       <a href="#"><i class="uil uil-twitter"></i></a>
                       <a href="#"><i class="uil uil-facebook-f"></i></a>
@@ -204,98 +150,166 @@
         <!-- /.offcanvas -->
       </header>
       <!-- /header -->
-      <section class="wrapper bg-soft-primary">
-        <div class="container pt-10 pb-12 pt-md-14 pb-md-17">
-          <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
-            <div
-              class="col-md-10 offset-md-1 offset-lg-0 col-lg-5 mt-lg-n2 text-center text-lg-start order-2 order-lg-0"
-              data-cues="slideInDown"
-              data-group="page-title"
-              data-delay="600"
-            >
-              <h1 class="display-1 mb-5 mx-md-10 mx-lg-0">
-                Your Journey to Success Starts Here! Experience a <br /><span
-                  class="typer text-primary text-nowrap"
-                  data-delay="100"
-                  data-words="Profitable, Rewarding, Innovative, Scalable, Sustainable, Impactful"
-                ></span
-                ><span class="cursor text-primary" data-owner="typer"></span
-                ><br />partnership with Retina Retail.
-              </h1>
-              <!-- <p class="lead fs-lg mb-7">
-                Partner with Retina Retail and transform your entrepreneurial
-                dreams into reality. Join a trusted brand with unmatched support
-                and proven growth strategies.
-              </p> -->
+      <style>
+        .video-content::after {
+          content: "";
+          background-color: rgba(0, 0, 0, 0.5);
+          width: 100%;
+          height: 100%;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          position: absolute;
+          z-index: 1;
+        }
+      </style>
+      <section
+        class="video-wrapper bg-overlay bg-overlay-gradient px-0 mt-0 min-vh-100"
+      >
+        <video
+          poster="./assets/img/photos/movie2.jpg"
+          src="./assets/img/video.mp4"
+          autoplay=""
+          loop=""
+          playsinline=""
+          muted=""
+        ></video>
+        <div class="video-content">
+          <div class="container pt-10 pb-12 pt-md-17" style="z-index: 1020">
+            <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
               <div
-                class="d-flex justify-content-center justify-content-lg-start"
+                class="col-md-10 offset-md-1 offset-lg-0 col-lg-5 mt-4 text-center text-lg-start order-2 order-lg-0"
                 data-cues="slideInDown"
-                data-group="page-title-buttons"
-                data-delay="900"
+                data-group="page-title"
+                data-delay="600"
               >
-                <span
-                  ><a class="btn btn-lg btn-primary rounded me-2"
-                    >Start Your Journey</a
-                  ></span
+                <h4 style="color: #fff">
+                  Shape Your Future with Retina Retail:
+                </h4>
+                <h1 class="display-1 mb-5 mx-md-10 mx-lg-0" style="color: #fff">
+                  India’s Leading Paint Franchise Opportunity!
+                </h1>
+                <!-- <p class="lead fs-lg mb-7" style="color: #fff">
+                  Join hands with a trusted brand in the decorative paints
+                  industry. Be your own boss and transform walls with premium
+                  paint solutions while building a thriving business.
+                </p> -->
+                <div
+                  class="d-flex justify-content-center justify-content-lg-start"
+                  data-cues="slideInDown"
+                  data-group="page-title-buttons"
+                  data-delay="900"
                 >
-                <span
-                  ><a class="btn btn-lg btn-green rounded"
-                    >Explore Opportunities</a
-                  ></span
-                >
-              </div>
-            </div>
-            <!-- /column -->
-            <div class="col-lg-7">
-              <div class="row">
-                <div class="col-12 col-lg-12" data-cue="zoomIn">
-                  <div style="position: relative">
-                    <img
-                      style="
-                        width: 100%;
-                        height: auto;
-                        border: 10px solid #fff;
-                        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-                        border-radius: 10px;
-                      "
-                      src="./assets/img/img-hero-vid.jpg"
-                      alt=""
-                    />
-                    <a
-                      href="./assets/media/movie.mp4"
-                      class="btn btn-circle btn-white btn-play ripple mx-auto"
-                      data-glightbox=""
-                      data-cue="zoomIn"
-                      data-interval="-200"
-                      data-group="page-title"
-                      data-delay="500"
-                      data-show="true"
-                      style="
-                        animation-name: zoomIn;
-                        animation-duration: 700ms;
-                        animation-timing-function: ease;
-                        animation-delay: 1500ms;
-                        animation-direction: normal;
-                        animation-fill-mode: both;
-                        position: absolute;
-                        left: 50%;
-                        margin-left: -35px !important;
-                        top: 50%;
-                        margin-top: -35px !important;
-                      "
-                      ><i class="icn-caret-right"></i
-                    ></a>
-                  </div>
+                  <span
+                    ><a class="btn btn-lg btn-primary rounded me-2"
+                      >Start Your Journey</a
+                    ></span
+                  >
+                  <!-- <span
+                    ><a class="btn btn-lg btn-green rounded"
+                      >Explore Opportunities</a
+                    ></span
+                  > -->
                 </div>
-                <!-- /column -->
               </div>
-              <!-- /.row -->
+              <!-- /column -->
+              <div class="col-lg-7">
+                <div class="row">
+                  <div
+                    class="col-3 offset-1 offset-lg-0 col-lg-4 d-flex flex-column"
+                    data-cues="zoomIn"
+                    data-group="col-start"
+                    data-delay="300"
+                  >
+                    <div class="ms-auto mt-auto">
+                      <img
+                        class="img-fluid rounded shadow-lg"
+                        src="./assets/img/2-1.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="ms-auto mt-5 mb-10">
+                      <img
+                        class="img-fluid rounded shadow-lg"
+                        src="./assets/img/3-1.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <!-- /column -->
+                  <div class="col-4 col-lg-5" data-cue="zoomIn">
+                    <div style="position: relative">
+                      <img
+                        class="w-100 img-fluid rounded shadow-lg"
+                        src="./assets/img/1-1.png"
+                        alt=""
+                      />
+                      <a
+                        href="./assets/media/movie.mp4"
+                        class="btn btn-circle btn-white btn-play ripple mx-auto"
+                        data-glightbox=""
+                        data-cue="zoomIn"
+                        data-interval="-200"
+                        data-group="page-title"
+                        data-delay="500"
+                        data-show="true"
+                        style="
+                          animation-name: zoomIn;
+                          animation-duration: 700ms;
+                          animation-timing-function: ease;
+                          animation-delay: 1500ms;
+                          animation-direction: normal;
+                          animation-fill-mode: both;
+                          position: absolute;
+                          left: 50%;
+                          margin-left: -35px !important;
+                          top: 28%;
+                        "
+                        ><i class="icn-caret-right"></i
+                      ></a>
+                    </div>
+                  </div>
+                  <!-- /column -->
+                  <div
+                    class="col-3 d-flex flex-column"
+                    data-cues="zoomIn"
+                    data-group="col-end"
+                    data-delay="300"
+                  >
+                    <div class="mt-auto">
+                      <!-- <img
+                        class="img-fluid rounded shadow-lg"
+                        src="./assets/img/photos/sa21.jpg"
+                        
+                        alt=""
+                      /> -->
+                    </div>
+                    <div class="mt-5">
+                      <img
+                        class="img-fluid rounded shadow-lg"
+                        src="./assets/img/4-1.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="mt-5 mb-10">
+                      <img
+                        class="img-fluid rounded shadow-lg"
+                        src="./assets/img/5-1.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <!-- /column -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /column -->
             </div>
-            <!-- /column -->
+            <!-- /.row -->
           </div>
-          <!-- /.row -->
+          <!-- /.container -->
         </div>
-        <!-- /.container -->
       </section>
       <!-- /section -->
 
@@ -314,7 +328,7 @@
                 "
               >
                 <h3 class="text-white mb-1 mt-n2">
-                  <span class="counter counter-lg">20+</span>
+                  <span class="counter counter-lg">15+</span>
                 </h3>
                 <p>Year Experience</p>
               </div>
@@ -323,21 +337,13 @@
                   <div class="row gx-md-5 gy-5">
                     <div class="col-md-10 offset-md-2">
                       <figure class="rounded">
-                        <img
-                          src="./assets/img/photos/ab1.jpg"
-                          srcset="./assets/img/photos/ab1@2x.jpg 2x"
-                          alt=""
-                        />
+                        <img src="./assets/img/photos/ab1.jpg" alt="" />
                       </figure>
                     </div>
                     <!--/column -->
                     <div class="col-md-12">
                       <figure class="rounded">
-                        <img
-                          src="./assets/img/photos/ab2.jpg"
-                          srcset="./assets/img/photos/ab2@2x.jpg 2x"
-                          alt=""
-                        />
+                        <img src="./assets/img/photos/ab2.jpg" alt="" />
                       </figure>
                     </div>
                     <!--/column -->
@@ -347,11 +353,7 @@
                 <!--/column -->
                 <div class="col-md-6">
                   <figure class="rounded">
-                    <img
-                      src="./assets/img/photos/ab3.jpg"
-                      srcset="./assets/img/photos/ab3@2x.jpg 2x"
-                      alt=""
-                    />
+                    <img src="./assets/img/photos/ab3.jpg" alt="" />
                   </figure>
                 </div>
                 <!--/column -->
@@ -419,7 +421,7 @@
                   <div class="card bg-pale-yellow">
                     <div class="card-body">
                       <img
-                        src="./assets/img/icons/lineal/telephone-3.svg"
+                        src="./assets/img/proven.png"
                         class="svg-inject icon-svg icon-svg-md text-yellow mb-3"
                         alt=""
                       />
@@ -438,7 +440,7 @@
                   <div class="card bg-pale-red">
                     <div class="card-body">
                       <img
-                        src="./assets/img/icons/lineal/shield.svg"
+                        src="./assets/img/maintenance.png"
                         class="svg-inject icon-svg icon-svg-md text-red mb-3"
                         alt=""
                       />
@@ -457,7 +459,7 @@
                   <div class="card bg-pale-leaf">
                     <div class="card-body">
                       <img
-                        src="./assets/img/icons/lineal/cloud-computing-3.svg"
+                        src="./assets/img/brush.png"
                         class="svg-inject icon-svg icon-svg-md text-leaf mb-3"
                         alt=""
                       />
@@ -476,7 +478,7 @@
                   <div class="card bg-pale-primary">
                     <div class="card-body">
                       <img
-                        src="./assets/img/icons/lineal/analytics.svg"
+                        src="./assets/img/gdp.png"
                         class="svg-inject icon-svg icon-svg-md text-primary mb-3"
                         alt=""
                       />
@@ -544,11 +546,11 @@
             </div>
             <!-- /column -->
             <div class="col-lg-6 ms-auto">
-              <div class="card bg-soft-fuchsia mb-6">
+              <div class="card bg-soft-yellow mb-6">
                 <div class="card-body d-flex flex-row">
                   <div>
                     <img
-                      src="./assets/img/icons/lineal/search-2.svg"
+                      src="./assets/img/proven.png"
                       class="svg-inject icon-svg icon-svg-md text-fuchsia me-5"
                       alt=""
                     />
@@ -564,11 +566,11 @@
                 <!-- /.card-body -->
               </div>
               <!-- /.card -->
-              <div class="card bg-soft-aqua mb-6">
+              <div class="card bg-soft-leaf mb-6">
                 <div class="card-body d-flex flex-row">
                   <div>
                     <img
-                      src="./assets/img/icons/lineal/puzzle-2.svg"
+                      src="./assets/img/maintenance.png"
                       class="svg-inject icon-svg icon-svg-md text-aqua me-5"
                       alt=""
                     />
@@ -588,7 +590,7 @@
                 <div class="card-body d-flex flex-row">
                   <div>
                     <img
-                      src="./assets/img/icons/lineal/smartphone.svg"
+                      src="./assets/img/eco-friendly.png"
                       class="svg-inject icon-svg icon-svg-md text-yellow me-5"
                       alt=""
                     />
@@ -608,7 +610,7 @@
                 <div class="card-body d-flex flex-row">
                   <div>
                     <img
-                      src="./assets/img/icons/lineal/design.svg"
+                      src="./assets/img/brush.png"
                       class="svg-inject icon-svg icon-svg-md text-leaf me-5"
                       alt=""
                     />
@@ -624,11 +626,11 @@
                 <!-- /.card-body -->
               </div>
               <!-- /.card -->
-              <div class="card bg-soft-orange mb-6">
+              <div class="card bg-soft-yellow mb-6">
                 <div class="card-body d-flex flex-row">
                   <div>
                     <img
-                      src="./assets/img/icons/lineal/video-editing.svg"
+                      src="./assets/img/gdp.png"
                       class="svg-inject icon-svg icon-svg-md text-orange me-5"
                       alt=""
                     />
@@ -659,9 +661,8 @@
             <div class="col-lg-6">
               <figure>
                 <img
-                  class="w-auto"
-                  src="./assets/img/illustrations/i2.png"
-                  srcset="./assets/img/illustrations/i2@2x.png 2x"
+                  class="w-auto rounded"
+                  src="./assets/img/franchise-img.jpg"
                   alt=""
                 />
               </figure>
@@ -696,22 +697,34 @@
                     data-bs-parent="#accordionExample"
                   >
                     <div class="card-body">
-                      <ul>
+                      <ul class="icon-list bullet-bg bullet-soft-primary">
                         <li>
-                          Operate a store with full guidance and support from
-                          Retina.
+                          <span><i class="uil uil-check"></i></span>
+                          <span
+                            >Operate a store with full guidance and support from
+                            Retina.</span
+                          >
                         </li>
                         <li>
-                          Access to our premium product range and exclusive
-                          tools.
+                          <span><i class="uil uil-check"></i></span>
+                          <span
+                            >Access to our premium product range and exclusive
+                            tools.</span
+                          >
                         </li>
                         <li>
-                          Comprehensive training to manage operations
-                          seamlessly.
+                          <span><i class="uil uil-check"></i></span>
+                          <span
+                            >Comprehensive training to manage operations
+                            seamlessly.</span
+                          >
                         </li>
                         <li>
-                          Marketing and promotional assistance to attract
-                          customers.
+                          <span><i class="uil uil-check"></i></span>
+                          <span
+                            >Marketing and promotional assistance to attract
+                            customers.</span
+                          >
                         </li>
                       </ul>
                     </div>
@@ -740,19 +753,33 @@
                     data-bs-parent="#accordionExample"
                   >
                     <div class="card-body">
-                      <ul>
-                        <li>You own and operate the store independently.</li>
+                      <ul class="icon-list bullet-bg bullet-soft-primary">
                         <li>
-                          Benefit from our established brand name and product
-                          quality.
+                          <span><i class="uil uil-check"></i></span>
+                          <span
+                            >You own and operate the store independently.</span
+                          >
                         </li>
                         <li>
-                          Enjoy low-risk and high-growth opportunities in a
-                          booming industry.
+                          <span><i class="uil uil-check"></i></span>
+                          <span
+                            >Benefit from our established brand name and product
+                            quality.</span
+                          >
                         </li>
                         <li>
-                          Access to Retina’s network, technology, and
-                          operational support.
+                          <span><i class="uil uil-check"></i></span>
+                          <span
+                            >Enjoy low-risk and high-growth opportunities in a
+                            booming industry.</span
+                          >
+                        </li>
+                        <li>
+                          <span><i class="uil uil-check"></i></span>
+                          <span
+                            >Access to Retina’s network, technology, and
+                            operational support.</span
+                          >
                         </li>
                       </ul>
                     </div>
@@ -763,7 +790,9 @@
                 <!--/.accordion-item -->
               </div>
               <!--/.accordion -->
-              <a href="#" class="btn btn-lg btn-primary btn-icon btn-icon-end"
+              <a
+                href="#"
+                class="btn btn-lg btn-primary btn-icon btn-icon-end mt-3"
                 >More Details <i class="uil uil-arrow-up-right"></i
               ></a>
             </div>
@@ -844,9 +873,7 @@
                 Real stories from franchise owners across India who’ve built
                 thriving businesses with Retina Retail.
               </p>
-              <a href="#" class="btn btn-primary rounded-pill"
-                >All Testimonials</a
-              >
+              <a href="#" class="btn btn-primary">All Testimonials</a>
             </div>
             <!-- /column -->
             <div class="col-xl-8">
@@ -885,7 +912,6 @@
                                   <img
                                     class="rounded-circle w-12"
                                     src="./assets/img/avatars/te1.jpg"
-                                    srcset="./assets/img/avatars/te1@2x.jpg 2x"
                                     alt=""
                                   />
                                   <div class="info">
@@ -918,7 +944,6 @@
                                   <img
                                     class="rounded-circle w-12"
                                     src="./assets/img/avatars/te2.jpg"
-                                    srcset="./assets/img/avatars/te2@2x.jpg 2x"
                                     alt=""
                                   />
                                   <div class="info">
@@ -950,7 +975,6 @@
                                   <img
                                     class="rounded-circle w-12"
                                     src="./assets/img/avatars/te3.jpg"
-                                    srcset="./assets/img/avatars/te3@2x.jpg 2x"
                                     alt=""
                                   />
                                   <div class="info">
@@ -982,7 +1006,6 @@
                                   <img
                                     class="rounded-circle w-12"
                                     src="./assets/img/avatars/te4.jpg"
-                                    srcset="./assets/img/avatars/te4@2x.jpg 2x"
                                     alt=""
                                   />
                                   <div class="info">
@@ -1015,7 +1038,6 @@
                                   <img
                                     class="rounded-circle w-12"
                                     src="./assets/img/avatars/te5.jpg"
-                                    srcset="./assets/img/avatars/te5@2x.jpg 2x"
                                     alt=""
                                   />
                                   <div class="info">
@@ -1047,7 +1069,6 @@
                                   <img
                                     class="rounded-circle w-12"
                                     src="./assets/img/avatars/te6.jpg"
-                                    srcset="./assets/img/avatars/te6@2x.jpg 2x"
                                     alt=""
                                   />
                                   <div class="info">
@@ -1072,6 +1093,27 @@
                 <!-- /.swiper-container -->
               </div>
               <!-- /.position-relative -->
+            </div>
+            <!-- /column -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /section -->
+      <section class="wrapper gradient-8 bg-lines">
+        <div class="container py-15 py-md-15 text-center">
+          <div class="row">
+            <div class="col-lg-10 col-xl-9 col-xxl-8 mx-auto text-center">
+              <h2 class="fs-16 text-uppercase text-white mb-3">
+                Start Your Franchise Journey with Retina Retail!
+              </h2>
+              <h3 class="display-3 text-white mb-6">
+                Low Investment,
+                <span class="underline-2"><em>High Returns</em></span>
+                – Be a Part of India’s Leading Paint Brand.
+              </h3>
+              <a href="#" class="btn btn-white">Apply Now</a>
             </div>
             <!-- /column -->
           </div>
@@ -1444,7 +1486,7 @@
     </div>
     <!-- /.content-wrapper -->
     <footer class="bg-dark text-inverse">
-      <div class="container pt-17 pt-md-19 pb-13 pb-md-15">
+      <div class="container pt-13 pt-md-15 pb-13 pb-md-15">
         <div class="row gy-6 gy-lg-0">
           <div class="col-md-4 col-lg-4">
             <div class="widget">
@@ -1454,14 +1496,15 @@
                 alt=""
               />
               <p class="mb-4">
-                PCR Projects is a trusted real estate company in Hyderabad,
-                specializing in property buying, selling, and investment with a
-                focus on trust, transparency, and client satisfaction.
+                Retina Retail is committed to empowering entrepreneurs across
+                India with a trusted franchise model. Join us to build a
+                profitable business backed by quality products, expert support,
+                and a proven brand legacy. Together, let’s paint a brighter
+                future!
               </p>
               <nav class="nav social social-white">
                 <a href="#"><i class="uil uil-twitter"></i></a>
                 <a href="#"><i class="uil uil-facebook-f"></i></a>
-                <a href="#"><i class="uil uil-dribbble"></i></a>
                 <a href="#"><i class="uil uil-instagram"></i></a>
                 <a href="#"><i class="uil uil-youtube"></i></a>
               </nav>
@@ -1478,9 +1521,10 @@
                   <h4 class="widget-title text-white mb-3">Sitemap</h4>
                   <ul class="list-unstyled mb-0">
                     <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Franchise</a></li>
+                    <li><a href="#">Support & Training</a></li>
                     <li><a href="#">Blog</a></li>
-                    <li><a href="#">Faq</a></li>
+                    <li><a href="#">Contact</a></li>
                     <li><a href="#">Terms of Use</a></li>
                     <li><a href="#">Privacy Policy</a></li>
                   </ul>
@@ -1491,12 +1535,14 @@
 
               <div class="col-md-6 col-lg-6">
                 <div class="widget">
-                  <h4 class="widget-title text-white mb-3">Our Projects</h4>
+                  <h4 class="widget-title text-white mb-3">Our Products</h4>
                   <ul class="list-unstyled mb-0">
-                    <li><a href="#">SILPA BOTANICA</a></li>
-                    <li><a href="#">GOLDEN PRIDE</a></li>
-                    <li><a href="#">HIGH 9 </a></li>
-                    <li><a href="#">SAPTA VARNA </a></li>
+                    <li><a href="#">Exterior Emulsions</a></li>
+                    <li><a href="#">Interior Emulsions</a></li>
+                    <li><a href="#">Water Proof Primers </a></li>
+                    <li><a href="#">Oil Based Primers</a></li>
+                    <li><a href="#">Enamels</a></li>
+                    <li><a href="#">Putty /Texture</a></li>
                   </ul>
                 </div>
                 <!-- /.widget -->
@@ -1509,12 +1555,13 @@
             <div class="widget">
               <h4 class="widget-title text-white mb-3">Get in Touch</h4>
               <address>
-                PCR Projects, 4th Floor, Sri Venkateshwara Nagar,
-                <br />Opp:Indis viva city, kondapur, Serilingampally,
-                Hyderabad-500084
+                <strong>Registered and Corporate Office Address:</strong>
+                <br />2nd & 3rd Floor, Phase-5, Survey No-184 & 185, IDA
+                Cherlapally, Cherlapally main road, Medchal Malkajgiri,
+                Hyderabad-500051, Telangana, INDIA.
               </address>
-              <a href="mailto:#">info@pcrprojects.com</a><br />
-              +91 89779 00919
+              <a href="mailto:#">info@retinaretail.com</a><br />
+              040-27205580, 040-27205590
             </div>
             <!-- /.widget -->
           </div>
