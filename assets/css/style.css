@@ -38303,7 +38303,7 @@ video.player {
     content: "";
     height: 1px;
     background: none;
-    border-top: 1px solid rgba(164, 174, 198, 0.2);
+    border-top: 1px solid rgba(242, 129, 33, 0.3);
     top: 1.5rem;
     z-index: 1;
     left: 3rem;
@@ -38845,8 +38845,8 @@ table.shopping-cart td {
   background: repeating-linear-gradient(
     -55deg,
     rgba(255, 255, 255, 0) 0.8px,
-    #e2626b 1.6px,
-    #e2626b 3px,
+    #f28121 1.6px,
+    #f28121 3px,
     rgba(255, 255, 255, 0) 3.8px,
     rgba(255, 255, 255, 0) 10px
   );
