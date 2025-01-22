@@ -32846,7 +32846,7 @@ button.hamburger span {
 }
 .swiper-container.nav-color .swiper-button,
 .swiper-container.nav-color .swiper-slide figure .item-link {
-  background: rgba(63, 120, 224, 0.9) !important;
+  background: rgba(242, 129, 33, 0.9) !important;
   color: #fff !important;
 }
 .swiper-container.nav-color .swiper-button.swiper-button-disabled,
@@ -32854,7 +32854,7 @@ button.hamburger span {
   .swiper-slide
   figure
   .item-link.swiper-button-disabled {
-  background: rgba(63, 120, 224, 0.7) !important;
+  background: rgba(242, 129, 33, 0.6) !important;
 }
 .swiper-container.nav-color .swiper-button:hover,
 .swiper-container.nav-color .swiper-slide figure .item-link:hover {
