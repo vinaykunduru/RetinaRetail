@@ -31287,6 +31287,7 @@ button:focus {
 .nav-link {
   --bs-nav-link-font-weight: 600;
   letter-spacing: -0.01rem;
+  font-weight: 500;
 }
 .nav-link p {
   font-size: 0.8rem;
@@ -31799,13 +31800,13 @@ button.hamburger span {
 }
 .breadcrumb-item {
   display: flex;
-  color: #60697b;
+  color: #fff;
 }
 .breadcrumb-item a {
-  color: inherit;
+  color: #fff;
 }
 .breadcrumb-item a:hover {
-  color: #f28121;
+  color: #fff;
 }
 .breadcrumb-item + .breadcrumb-item {
   padding-left: 0.5rem;
@@ -31816,7 +31817,7 @@ button.hamburger span {
   display: flex;
   align-items: center;
   padding-right: 0.5rem;
-  color: rgba(96, 105, 123, 0.35);
+  color: #fff;
   content: "\e931";
   margin-top: -1px;
   font-size: 0.9rem;
@@ -32349,10 +32350,10 @@ button.hamburger span {
   stroke: rgba(209, 107, 134, 0.1);
 }
 .progressbar.fuchsia svg path:last-child {
-  stroke: #e668b3;
+  stroke: #f28121;
 }
 .progressbar.semi-circle.fuchsia svg path:first-child {
-  stroke: rgba(230, 104, 179, 0.1);
+  stroke: rgba(252, 230, 211, 0.5);
 }
 .progressbar.red svg path:last-child {
   stroke: #e2626b;
@@ -39332,7 +39333,7 @@ footer.bg-dark,
   z-index: 1;
   width: 100%;
   height: 100%;
-  background: rgba(30, 34, 40, 0.5);
+  background: rgba(30, 34, 40, 0.7);
 }
 .image-wrapper.bg-overlay-300:before {
   background: rgba(30, 34, 40, 0.3);
