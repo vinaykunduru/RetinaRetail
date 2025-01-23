@@ -34,7 +34,7 @@ Author:		elemis
   --bs-white: #fff;
   --bs-light: #f5f5f5;
   --bs-gray: #f6f7f9;
-  --bs-dark: #01398a;
+  --bs-dark: #f28121;
   /* --bs-primary: #f28121; */
   --bs-primary: #f28121;
   --bs-secondary: #aab0bc;
@@ -60,7 +60,7 @@ Author:		elemis
   --bs-white-rgb: 255, 255, 255;
   --bs-light-rgb: 245, 245, 245;
   --bs-gray-rgb: 246, 247, 249;
-  --bs-dark-rgb: 1, 57, 138;
+  --bs-dark-rgb: 242, 129, 33;
   --bs-primary-rgb: 63, 120, 224;
   --bs-secondary-rgb: 170, 176, 188;
   --bs-success-rgb: 69, 196, 160;
