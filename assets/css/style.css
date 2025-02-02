@@ -31795,18 +31795,18 @@ button.hamburger span {
   padding: 0 0;
   margin-bottom: 1rem;
   list-style: none;
-  background-color: none;
+  background-color: transparent;
   border-radius: 0;
 }
 .breadcrumb-item {
   display: flex;
-  color: #fff;
+  color: #333;
 }
 .breadcrumb-item a {
-  color: #fff;
+  color: #333;
 }
 .breadcrumb-item a:hover {
-  color: #fff;
+  color: #f28121;
 }
 .breadcrumb-item + .breadcrumb-item {
   padding-left: 0.5rem;
@@ -31817,7 +31817,7 @@ button.hamburger span {
   display: flex;
   align-items: center;
   padding-right: 0.5rem;
-  color: #fff;
+  color: #333;
   content: "\e931";
   margin-top: -1px;
   font-size: 0.9rem;
