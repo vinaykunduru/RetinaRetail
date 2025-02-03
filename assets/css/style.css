@@ -29948,8 +29948,8 @@ button:focus {
 }
 @media (max-width: 991.98px) {
   .navbar-expand-lg .navbar-brand {
-    padding-top: 1.2rem;
-    padding-bottom: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 0.8rem;
   }
 }
 @media (max-width: 991.98px) {
@@ -39511,6 +39511,11 @@ footer.bg-dark.angled.upper-start:before {
   }
 }
 
+@media (max-width: 767px) {
+  .modal {
+    --bs-modal-padding: 2.5rem 0.5rem;
+  }
+}
 .fooLogo {
   width: 180px;
   height: auto;
